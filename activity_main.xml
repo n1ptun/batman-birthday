@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.batmancard.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/BatmanArkhamKnightGothamCity2"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/batmansignal"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/batman"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/batman"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/batmantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/batman"
+        android:layout_centerHorizontal="true"
+        android:text="BATMAN,"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#2196F3"
+        android:textStyle="bold|italic"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/batmantext"
+        android:layout_centerHorizontal="true"
+        android:text="HAPPY"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#2196F3"
+        android:textStyle="bold|italic"
+        android:paddingTop="50dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIRTH"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#2196F3"
+        android:textStyle="bold|italic"
+        android:padding="8dp"
+        android:layout_below="@+id/happy"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birth"
+        android:layout_centerHorizontal="true"
+        android:text="DAY!"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#2196F3"
+        android:textStyle="bold|italic"
+        android:padding="8dp"/>
+
+</RelativeLayout>
